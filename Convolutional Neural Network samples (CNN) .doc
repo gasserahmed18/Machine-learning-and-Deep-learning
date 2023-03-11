@@ -1,0 +1,537 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red192\green192\blue192;\red255\green0\blue0;\red0\green0\blue0;\red255\green255\blue255;\red255\green0\blue255;}
+{\*\generator Riched20 10.0.17763}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs24\lang9 Gasser Ahmed Mohamed                                                  20190150\par
+Youssef Salah Fathy                                                           20190636\par
+-------------------------------------------------------------------------------------------------------------------\par
+\fs22 padding\b0 ="same", \b activation function\b0 ="relu\b ", kernel_initializer\b0 ='he_uniform\b ', input_shape\b0 =(28, 28, 1), Convolution Conv2D with \b kernel size  \b0 (3, 3) and also \b 2 epochs \b0 and \b 3 folds \b0 and  use \b Pooling (Max_Pooling) \b0 = (2*2) ) and another \b Pooling (Max_Pooling) \b0 = (2*2)  and SGD with \b batch_size\b0 =32, \b learning_rate\b0 =0.01 and  \b momentum\b0 =0.9 :-\b\fs20\par
+
+\pard\sl240\slmult1\highlight1 Epoch 1\b0\par
+109s 3ms/sample - loss: 0.1430 - acc: 0.9559 - val_loss: 0.0568 - val_acc: 0.9828\par
+\b Epoch 2\par
+\b0 108s 3ms/sample - loss: 0.0456 - acc: 0.9854 - val_loss: 0.0567 - val_acc: 0.9831\par
+\b Accuracy = 98.310\b0\par
+\par
+\b Epoch 1\b0\par
+110s 3ms/sample - loss: 0.1388 - acc: 0.9569 - val_loss: 0.0670 - val_acc: 0.9786\par
+\b Epoch 2\b0\par
+109s 3ms/sample - loss: 0.0460 - acc: 0.9862 - val_loss: 0.0493 - val_acc: 0.9855\par
+\b Accuracy = \b0\fs22  \b\fs20 98.555\par
+\b0\par
+\b Epoch 1/2\b0\par
+109s 3ms/sample - loss: 0.1436 - acc: 0.9550 - val_loss: 0.0606 - val_acc: 0.9815\par
+\b Epoch 2/2\b0\par
+109s 3ms/sample - loss: 0.0474 - acc: 0.9851 - val_loss: 0.0626 - val_acc: 0.9815\par
+\b Accuracy = \b0\fs22  \b\fs20 98.150\par
+
+\pard\sl276\slmult1\highlight0\fs22 ----------------------------------------------------------------------------------------------------------------------\par
+
+\pard\sl240\slmult1\b0\fs20\par
+\b\fs22 padding\b0 ="same", \b activation function\b0 ="relu\b ", activation function at o/p layer\b0 ="softmax\b ", kernel_initializer\b0 ='he_uniform\b ', input_shape\b0 =(28, 28, 1), Convolution Conv2D with \b kernel size  \b0 (3, 3) and also \b 2 epochs \b0 and \b 3 folds \b0 and  use \b Pooling (Max_Pooling) \b0 = (2*2) and another \b Pooling (Max_Pooling) \b0 = (2*2) and SGD with \b batch_size\b0 =32, \b learning_rate\b0 =0.1 and  \b momentum\b0 =0.1 :-\par
+\highlight1\b\fs20 Epoch 1/2\b0\par
+87s 3ms/sample - loss: 0.3083 - acc: 0.9045 - val_loss: 0.0880 - val_acc: 0.9720\par
+
+\pard\sl276\slmult1\b Epoch 2/2\b0\par
+
+\pard\sl240\slmult1 87s 3ms/sample - loss: 0.0716 - acc: 0.9775 - val_loss: 0.0733 - val_acc: 0.9776\par
+\b Accuracy = \b0\fs22  \b\fs20 97.763\b0\par
+\b Epoch 1/2\b0\par
+87s 3ms/sample - loss: 0.2652 - acc: 0.9182 - val_loss: 0.0816 - val_acc: 0.9746\par
+
+\pard\sl276\slmult1\b Epoch 2/2\b0\par
+
+\pard\sl240\slmult1 87s 3ms/sample - loss: 0.0616 - acc: 0.9805 - val_loss: 0.0837 - val_acc: 0.9749\par
+\b Accuracy = \b0\fs22  \fs20  \b 97.487\b0\par
+
+\pard\sl276\slmult1\highlight0\b\fs22 ----------------------------------------------------------------------------------------------------------------------\b0\fs20\par
+
+\pard\sl240\slmult1\par
+
+\pard\sa200\sl276\slmult1\b\fs22 padding\b0 ="same", \b activation function\b0 ="relu\b ", activation function at o/p layer\b0 ="softmax\b ", kernel_initializer\b0 ='he_uniform\b ', input_shape\b0 =(28, 28, 1), Convolution Conv2D with \b kernel size  \b0 (5, 5) and also \b 2 epochs \b0 and \b 3 folds \b0 and  use \b Pooling (Max_Pooling) \b0 = (2*2) and another \b Pooling (Max_Pooling) \b0 = (2*2)   and SGD with \b batch_size\b0 =50, \b learning_rate\b0 =0.01 and  \b momentum\b0 =0.9 :-\par
+
+\pard\sl276\slmult1\highlight1\b\fs20 Epoch 1/2\b0\fs22\par
+242s 6ms/sample - loss: 0.1555 - acc: 0.9510 - val_loss: 0.0726 - val_acc: 0.9782\par
+\b\fs20 Epoch 2/2\b0\fs22\par
+241s 6ms/sample - loss: 0.0466 - acc: 0.9850 - val_loss: 0.0488 - val_acc: 0.9853\par
+\b\fs20 Accuracy = \b0\fs22  \b 98.530\b0\par
+\b\fs20 Epoch 1/2\b0\fs22\par
+242s 6ms/sample - loss: 0.1449 - acc: 0.9545 - val_loss: 0.0573 - val_acc: 0.9826\par
+\b\fs20 Epoch 2/2\b0\fs22\par
+242s 6ms/sample - loss: 0.0452 - acc: 0.9859 - val_loss: 0.0483 - val_acc: 0.9848\par
+\b\fs20 Accuracy = \b0\fs22  \b 98.480\b0\par
+Train on 40000 samples, validate on 20000 samples\par
+\b\fs20 Epoch 1/2\b0\fs22\par
+243s 6ms/sample - loss: 0.1515 - acc: 0.9532 - val_loss: 0.0610 - val_acc: 0.9795\par
+\b\fs20 Epoch 2/2\b0\fs22\par
+242s 6ms/sample - loss: 0.0443 - acc: 0.9862 - val_loss: 0.0455 - val_acc: 0.9855\par
+\b\fs20 Accuracy = \b0\fs22  \b 98.550\par
+\highlight0 ----------------------------------------------------------------------------------------------------------------------\par
+
+\pard\sa200\sl276\slmult1 padding\b0 ="same", \b activation function\b0 ="relu\b ", activation function at o/p layer\b0 ="softmax\b ", kernel_initializer\b0 ='he_uniform\b ', input_shape\b0 =(28, 28, 1), Convolution Conv2D with \b kernel size  \b0 (9, 9) and also \b 2 epochs \b0 and \b 2 folds \b0 and  use \b Pooling (Max_Pooling) \b0 = (5*5) and another \b Pooling (Max_Pooling) \b0 = (5*5)   and SGD with \b batch_size\b0 =50, \b learning_rate\b0 =0.01 and  \b momentum\b0 =0.9 :-\par
+
+\pard\sl276\slmult1\highlight1\b\fs20 Epoch 1/2\b0\fs22\par
+142s 5ms/sample - loss: 0.2344 - acc: 0.9260 - val_loss: 0.0821 - val_acc: 0.9740\par
+\b\fs20 Epoch 2/2\b0\fs22\par
+143s 5ms/sample - loss: 0.0629 - acc: 0.9810 - val_loss: 0.0547 - val_acc: 0.9835\par
+\b\fs20 Accuracy = \b0\fs22   \b 98.350\b0\par
+\b\fs20 Epoch 1/2\b0\fs22\par
+142s 5ms/sample - loss: 0.2462 - acc: 0.9205 - val_loss: 0.0928 - val_acc: 0.9703\par
+\b\fs20 Epoch 2/2\b0\fs22\par
+loss: 0.0627 - acc: 0.9803\par
+\highlight0\b ----------------------------------------------------------------------------------------------------------------------\b0\par
+
+\pard\sa200\sl276\slmult1\b padding\b0 ="same", \b activation function\b0 ="relu\b ", activation function at o/p layer\b0 ="softmax\b ", kernel_initializer\b0 ='he_uniform\b ', input_shape\b0 =(28, 28, 1), Convolution Conv2D with \b kernel size  \b0 (7, 7) and also \b 2 epochs \b0 and \b 2 folds \b0 and  use \b Pooling (Max_Pooling) \b0 = (2*2) and another \b Pooling \highlight1 (Max_Pooling) \b0 = (2*2)  and SGD with \b batch_size\b0 =64, \b learning_rate\b0 =0.1 and  \b momentum\b0 =0.9 :-\par
+
+\pard\sl276\slmult1\b\fs20 Epoch 1/2\b0\fs22\par
+366s 12ms/sample - loss: 0.3447 - acc: 0.8986 - val_loss: 0.1829 - val_acc: 0.9468\par
+\b\fs20 Epoch 2/2\b0\fs22\par
+365s 12ms/sample - loss: 0.1333 - acc: 0.9645 - val_loss: 0.1758 - val_acc: 0.9505\par
+\b\fs20 Accuracy = \b0\fs22  \b 95.053\b0\par
+\b\fs20 Epoch 1/2\b0\fs22\par
+366s 12ms/sample - loss: 0.6182 - acc: 0.8093 - val_loss: 0.1833 - val_acc: 0.9494\par
+\b\fs20 Epoch 2/2\b0\fs22\par
+365s 12ms/sample - loss: 0.3010 - acc: 0.9228 - val_loss: 0.2082 - val_acc: 0.9438\par
+\b\fs20 Accuracy = \b0\fs22  \b 94.383\par
+\highlight0 ----------------------------------------------------------------------------------------------------------------------\par
+padding\b0 ="same", \b activation function\b0 ="relu"\b  , activation function at o/p layer\b0 ="softmax\b "  ,kernel_initializer\b0 ='he_uniform\b ', input_shape\b0 =(28, 28, 1), Convolution Conv2D with \b kernel size  (\b0 6*6) and also \b 5 epochs \b0 and \b 2 folds \b0 and  use \b Pooling (Max_Pooling) \b0 = (4*4) and another \b Pooling (Max_Pooling) \b0 = (4*4)  and SGD with \b batch_size\b0 =50, \b Optimizer\b0 = SGD, \b learning_rate\b0 =0.3 and  \b momentum\b0 =0.5 and 20 \b Neurons \b0 and 10 \b Neurons \b0 at o/p layer :-\b\fs20\par
+\highlight1\fs24 Number of parameters =  133976\par
+\fs22 Epoch 1/5\b0\par
+600/600 [==============================] - 106s 176ms/step - loss: 6214641583652864.0000 - accuracy: 0.1067 - val_loss: 2.3070 - val_accuracy: 0.1033\par
+\b Epoch 2/5\b0\par
+600/600 [==============================] - 104s 174ms/step - loss: 2.3032 - accuracy: 0.1088 - val_loss: 2.3063 - val_accuracy: 0.0977\par
+\b Epoch 3/5\b0\par
+600/600 [==============================] - 105s 175ms/step - loss: 2.3034 - accuracy: 0.1081 - val_loss: 2.3024 - val_accuracy: 0.1118\par
+\b Epoch 4/5\b0\par
+600/600 [==============================] - 106s 176ms/step - loss: 2.3037 - accuracy: 0.1068 - val_loss: 2.3052 - val_accuracy: 0.1022\par
+\b Epoch 5/5\b0\par
+600/600 [==============================] - 106s 177ms/step - loss: 2.3031 - accuracy: 0.1098 - val_loss: 2.3045 - val_accuracy: 0.1118\par
+938/938 [==============================] - 23s 24ms/step - loss: 2.3045 - accuracy: 0.1118\par
+\ul\b\fs24 Accuracy of the first fold= 11.180 %\par
+\ulnone Traning Time= [106+104+105+106+106]/5= 105.4 Sec\par
+Test Time = 23 Sec\b0\fs22\par
+\b Epoch 1/5\b0\par
+600/600 [==============================] - 104s 173ms/step - loss: nan - accuracy: 0.0984 - val_loss: nan - val_accuracy: 0.0987\par
+\b Epoch 2/5\b0\par
+600/600 [==============================] - 103s 171ms/step - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0987\par
+\b Epoch 3/5\b0\par
+600/600 [==============================] - 103s 172ms/step - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0987\par
+\b Epoch 4/5\b0\par
+600/600 [==============================] - 103s 172ms/step - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0987\par
+\b Epoch 5/5\b0\par
+600/600 [==============================] - 103s 172ms/step - loss: nan - accuracy: 0.0987 - val_loss: nan - val_accuracy: 0.0987\par
+938/938 [==============================] - 23s 24ms/step - loss: nan - accuracy: 0.0987\par
+\ul\b\fs24 Accuracy of the second fold= 9.870 %\par
+\ulnone Traning Time= [103+104+103+103+103]/5= 103.2 Sec\par
+Test Time = 23 Sec\highlight2\fs22\par
+\highlight0\fs24 --------------------------------------------------------------------------------------------------------------------\highlight1\par
+\highlight0\fs22 padding\b0 ="same", \b activation function\b0 ="sigmoid"\b  , activation function at o/p layer\b0 ="softmax\b "  ,kernel_initializer\b0 ='he_uniform\b ', input_shape\b0 =(28, 28, 1), Convolution Conv2D with \b kernel size  (\b0 6*6) and also \b 5 epochs \b0 and \b 2 folds \b0 and  use \b Pooling (Max_Pooling) \b0 = (4*4) and another \b Pooling (Max_Pooling) \b0 = (4*4)  and SGD with \b batch_size\b0 =50, \b Optimizer\b0 = SGD ,\b learning_rate\b0 =0.3 and  \b momentum\b0 =0.5 and 20 \b Neurons \b0 and 10 \b Neurons \b0 at o/p layer :-\b\fs20\par
+\fs22 [the previous test but with different activation function(sigmoid)]\par
+\highlight1\fs24 Number of parameters =  133976\fs22\par
+Epoch 1/5\b0\par
+600/600 [==============================] - 108s 179ms/step - loss: 1.0936 - accuracy: 0.6273 - val_loss: 0.3630 - val_accuracy: 0.8898\par
+\b Epoch 2/5\b0\par
+600/600 [==============================] - 105s 175ms/step - loss: 0.2849 - accuracy: 0.9122 - val_loss: 0.3325 - val_accuracy: 0.8945\par
+\b Epoch 3/5\b0\par
+600/600 [==============================] - 105s 175ms/step - loss: 0.2421 - accuracy: 0.9233 - val_loss: 0.1964 - val_accuracy: 0.9374\par
+\b Epoch 4/5\b0\par
+600/600 [==============================] - 104s 174ms/step - loss: 0.1816 - accuracy: 0.9420 - val_loss: 0.1548 - val_accuracy: 0.9517\par
+\b Epoch 5/5\b0\par
+600/600 [==============================] - 105s 175ms/step - loss: 0.1417 - accuracy: 0.9555 - val_loss: 0.1546 - val_accuracy: 0.9519\par
+938/938 [==============================] - 23s 24ms/step - loss: 0.1546 - accuracy: 0.9519\par
+\ul\b\fs24 Accuracy of the first fold=  95.190 %\fs22\par
+\ulnone\fs24 Traning Time= [108+105+105+104+105]/5= 105.5 Sec\par
+Test Time = 23 Sec\b0\par
+\b\fs22 Epoch 1/5\b0\par
+600/600 [==============================] - 106s 175ms/step - loss: 1.2523 - accuracy: 0.5633 - val_loss: 0.4997 - val_accuracy: 0.8348\par
+\b Epoch 2/5\b0\par
+600/600 [==============================] - 106s 176ms/step - loss: 0.3002 - accuracy: 0.9073 - val_loss: 0.2283 - val_accuracy: 0.9278\par
+\b Epoch 3/5\b0\par
+600/600 [==============================] - 105s 175ms/step - loss: 0.1991 - accuracy: 0.9388 - val_loss: 0.1860 - val_accuracy: 0.9406\par
+\b Epoch 4/5\b0\par
+600/600 [==============================] - 105s 176ms/step - loss: 0.1434 - accuracy: 0.9552 - val_loss: 0.1428 - val_accuracy: 0.9557\b\par
+Epoch 5/5\par
+\b0 600/600 [==============================] - 106s 177ms/step - loss: 0.1290 - accuracy: 0.9591 - val_loss: 0.1119 - val_accuracy: 0.9652\par
+938/938 [==============================] - 23s 24ms/step - loss: 0.1119 - accuracy: 0.9652\par
+\ul\b\fs24 Accuracy of the second fold=  96.517 %\par
+\ulnone Traning Time= [106+106+106+105+105]/5= 105.6 Sec\par
+Test Time = 23 Sec\ul\fs22\par
+\highlight0\ulnone ----------------------------------------------------------------------------------------------------------------------\par
+padding\b0 ="same", \b activation function\b0 ="tanh"\b  , activation function at o/p layer\b0 ="softmax\b "  ,kernel_initializer\b0 ='he_uniform\b ', input_shape\b0 =(28, 28, 1), Convolution Conv2D with \b kernel size  (\b0 6*6) and also \b 5 epochs \b0 and \b 2 folds \b0 and  use \b Pooling (Max_Pooling) \b0 = (4*4) and another \b Pooling (Max_Pooling) \b0 = (4*4)  and SGD with \b batch_size\b0 =50,  \b Optimizer\b0 = SGD,\b learning_rate\b0 =0.3 and  \b momentum\b0 =0.5 and 20 \b Neurons \b0 and 10 \b Neurons \b0 at o/p layer :-\b\fs20\par
+\fs22 [the previous test but with different activation function(tanh)]\par
+\highlight1\fs24 Number of parameters =  133976\b0\fs22\par
+\b Epoch 1/5\b0\par
+600/600 [==============================] - 102s 170ms/step - loss: 1.6288 - accuracy: 0.4071 - val_loss: 1.0403 - val_accuracy: 0.6460\par
+\b Epoch 2/5\b0\par
+600/600 [==============================] - 101s 169ms/step - loss: 0.9673 - accuracy: 0.6633 - val_loss: 0.8177 - val_accuracy: 0.7064\par
+\b Epoch 3/5\b0\par
+600/600 [==============================] - 102s 170ms/step - loss: 0.8097 - accuracy: 0.7260 - val_loss: 0.8634 - val_accuracy: 0.7127\par
+\b Epoch 4/5\b0\par
+600/600 [==============================] - 102s 170ms/step - loss: 0.6586 - accuracy: 0.7819 - val_loss: 0.6451 - val_accuracy: 0.7774\par
+\b Epoch 5/5\b0\par
+600/600 [==============================] - 102s 170ms/step - loss: 0.6631 - accuracy: 0.7790 - val_loss: 0.6307 - val_accuracy: 0.7964\par
+938/938 [==============================] - 22s 24ms/step - loss: 0.6307 - accuracy: 0.7964\par
+\ul\b Accuracy of the first fold=   79.640\par
+\ulnone\fs24 Traning Time= [102+101+102+102+102]/5= 101.8 Sec\par
+Test Time = 22 Sec\b0\fs22\par
+\b Epoch 1/5\b0\par
+600/600 [==============================] - 103s 170ms/step - loss: 1.4661 - accuracy: 0.4670 - val_loss: 0.6209 - val_accuracy: 0.7940\par
+\b Epoch 2/5\b0\par
+600/600 [==============================] - 102s 169ms/step - loss: 0.6763 - accuracy: 0.7786 - val_loss: 0.6183 - val_accuracy: 0.8026\par
+\b Epoch 3/5\b0\par
+600/600 [==============================] - 102s 170ms/step - loss: 0.5827 - accuracy: 0.8101 - val_loss: 0.4746 - val_accuracy: 0.8421\par
+\b Epoch 4/5\b0\par
+600/600 [==============================] - 102s 169ms/step - loss: 0.4845 - accuracy: 0.8434 - val_loss: 0.5679 - val_accuracy: 0.8213\par
+\b Epoch 5/5\b0\par
+600/600 [==============================] - 101s 169ms/step - loss: 0.5114 - accuracy: 0.8364 - val_loss: 0.4606 - val_accuracy: 0.8524\par
+938/938 [==============================] - 22s 24ms/step - loss: 0.4606 - accuracy: 0.8524\par
+\ul\b Accuracy of the second fold=   85.240\par
+\ulnone\fs24 Traning Time= [103+102+102+102+101]/5= 102 Sec\par
+Test Time = 22 Sec\ul\fs22\par
+\highlight0\ulnone ----------------------------------------------------------------------------------------------------------------------\highlight3\ul\par
+\highlight0\ulnone padding\b0 ="same", \b activation function\b0 ="tanh"\b  , activation function at o/p layer\b0 ="softmax\b "  ,kernel_initializer\b0 ='he_uniform\b ', input_shape\b0 =(28, 28, 1), Convolution Conv2D with \b kernel size  (\b0 6*6) and also \b 5 epochs \b0 and \b 2 folds \b0 and  use \b Pooling (Max_Pooling) \b0 = (4*4) and another \b Pooling (Max_Pooling) \b0 = (4*4)  and RMSprop with \b batch_size\b0 =50,  \b Optimizer\b0 = RMSprop,\b  \b0 and 20 \b Neurons \b0 and 10 \b Neurons \b0 at o/p layer :-\b\par
+\highlight1\fs24 Number of parameters =  224006\b0\fs22\par
+\b Epoch 1/5\b0\par
+600/600 [==============================] - 104s 172ms/step - loss: 0.5078 - accuracy: 0.8542 - val_loss: 0.1736 - val_accuracy: 0.9511\par
+\b Epoch 2/5\b0\par
+600/600 [==============================] - 102s 171ms/step - loss: 0.1608 - accuracy: 0.9526 - val_loss: 0.1409 - val_accuracy: 0.9577\par
+\b Epoch 3/5\b0\par
+600/600 [==============================] - 102s 171ms/step - loss: 0.1162 - accuracy: 0.9641 - val_loss: 0.1186 - val_accuracy: 0.9643\par
+\b Epoch 4/5\b0\par
+600/600 [==============================] - 102s 171ms/step - loss: 0.0944 - accuracy: 0.9711 - val_loss: 0.1426 - val_accuracy: 0.9570\par
+\b Epoch 5/5\b0\par
+600/600 [==============================] - 102s 171ms/step - loss: 0.0844 - accuracy: 0.9740 - val_loss: 0.1152 - val_accuracy: 0.9648\par
+938/938 [==============================] - 22s 24ms/step - loss: 0.1152 - accuracy: 0.9648\par
+\ul\b\fs24 Accuracy of the first fold=  96.480 %\par
+\ulnone Traning Time= [104+102+102+102+102]/5= 102.4 Sec\par
+Test Time = 22 Sec\ul\fs22\par
+\ulnone Epoch 1/5\b0\par
+600/600 [==============================] - 103s 171ms/step - loss: 0.4604 - accuracy: 0.8762 - val_loss: 0.1679 - val_accuracy: 0.9521\par
+\b Epoch 2/5\b0\par
+600/600 [==============================] - 102s 171ms/step - loss: 0.1448 - accuracy: 0.9583 - val_loss: 0.1361 - val_accuracy: 0.9602\par
+\b Epoch 3/5\b0\par
+600/600 [==============================] - 102s 171ms/step - loss: 0.1105 - accuracy: 0.9660 - val_loss: 0.1267 - val_accuracy: 0.9609\par
+\b Epoch 4/5\b0\par
+600/600 [==============================] - 103s 171ms/step - loss: 0.0886 - accuracy: 0.9731 - val_loss: 0.1120 - val_accuracy: 0.9648\par
+\b Epoch 5/5\b0\par
+600/600 [==============================] - 102s 171ms/step - loss: 0.0769 - accuracy: 0.9770 - val_loss: 0.0984 - val_accuracy: 0.9704\par
+938/938 [==============================] - 22s 24ms/step - loss: 0.0984 - accuracy: 0.9704\par
+\ul\b\fs24 Accuracy of the second fold= 97.043 %\ulnone\b0\fs22\par
+\b\fs24 Traning Time= [103+102+102+103+102]/5= 102.4 Sec\par
+Test Time = 23 Sec\highlight2\fs22\par
+\highlight0 ----------------------------------------------------------------------------------------------------------------------\highlight3\ul\par
+\highlight0\ulnone padding\b0 ="same", \b activation function\b0 ="tanh"\b  , activation function at o/p layer\b0 ="softmax\b "  ,kernel_initializer\b0 ='he_uniform\b ', input_shape\b0 =(28, 28, 1), Convolution Conv2D with \b kernel size  (\b0 12*12) and also \b 5 epochs \b0 and \b 2 folds \b0 and  use \b Pooling (Max_Pooling) \b0 = (4*4) and another \b Pooling (Max_Pooling) \b0 = (4*4)  and Adam with \b batch_size\b0 =200,  \b Optimizer\b0 = Adam,\b  \b0 and 20 \b Neurons \b0 and 10 \b Neurons \b0 at o/p layer :-\par
+\highlight1\b\fs24 Number of parameters =  133976\b0\fs22\par
+\b Epoch 1/5\par
+\b0 150/150 [==============================] - 295s 2s/step - loss: 0.9942 - accuracy: 0.7522 - val_loss: 0.4310 - val_accuracy: 0.9156\par
+\b Epoch 2/5\b0\par
+150/150 [==============================] - 293s 2s/step - loss: 0.2605 - accuracy: 0.9496 - val_loss: 0.1917 - val_accuracy: 0.9589\par
+\b Epoch 3/5\b0\par
+150/150 [==============================] - 293s 2s/step - loss: 0.1590 - accuracy: 0.9649 - val_loss: 0.1569 - val_accuracy: 0.9620\par
+\b Epoch 4/5\b0\par
+150/150 [==============================] - 293s 2s/step - loss: 0.1144 - accuracy: 0.9734 - val_loss: 0.1260 - val_accuracy: 0.9670\par
+\b Epoch 5/5\b0\par
+150/150 [==============================] - 293s 2s/step - loss: 0.0880 - accuracy: 0.9785 - val_loss: 0.1287 - val_accuracy: 0.9653\par
+938/938 [==============================] - 67s 71ms/step - loss: 0.1287 - accuracy: 0.9653\par
+\ul\b\fs24 Accuracy of the first fold=   96.533 %\par
+\ulnone Traning Time= [295+293+293+293+293\b0\fs22  \b\fs24 ]/5= 293.4 Sec\par
+Test Time = 67 Sec\b0\fs22\par
+\b Epoch 1/5\b0\par
+150/150 [==============================] - 295s 2s/step - loss: 1.2595 - accuracy: 0.6696 - val_loss: 0.5643 - val_accuracy: 0.9190\par
+\b Epoch 2/5\b0\par
+150/150 [==============================] - 295s 2s/step - loss: 0.3580 - accuracy: 0.9434 - val_loss: 0.2717 - val_accuracy: 0.9467\par
+\b Epoch 3/5\b0\par
+150/150 [==============================] - 295s 2s/step - loss: 0.1903 - accuracy: 0.9637 - val_loss: 0.2087 - val_accuracy: 0.9489\par
+\b Epoch 4/5\b0\par
+150/150 [==============================] - 296s 2s/step - loss: 0.1450 - accuracy: 0.9678 - val_loss: 0.1717 - val_accuracy: 0.9545\par
+\b Epoch 5/5\b0\par
+150/150 [==============================] - 294s 2s/step - loss: 0.1091 - accuracy: 0.9744 - val_loss: 0.1176 - val_accuracy: 0.9713\par
+938/938 [==============================] - 67s 71ms/step - loss: 0.1176 - accuracy: 0.9713\par
+\ul\b\fs24 Accuracy of the second fold=   97.133 %\par
+\ulnone Traning Time= [295+295+295+296+294\b0\fs22  \b\fs24 ]/5= 295.8 Sec\par
+Test Time = 67 Sec\highlight2\fs22\par
+\highlight0 ----------------------------------------------------------------------------------------------------------------------padding\b0 ="same", \b activation function\b0 ="tanh"\b  , activation function at o/p layer\b0 ="softmax\b "  ,kernel_initializer\b0 ='he_uniform\b ', input_shape\b0 =(28, 28, 1), Convolution Conv2D with \b kernel size  (\b0 6*6) and also \b 5 epochs \b0 and \b 2 folds \b0 and  use \b Pooling (Max_Pooling) \b0 = (4*4) and another \b Pooling (Max_Pooling) \b0 = (4*4)  and Adam with \b batch_size\b0 =200,  \b Optimizer\b0 = SGD, \b learning_rate\b0 =0.3 and  \b momentum\b0 =0.5 \b  \b0 and 20 \b Neurons \b0 and 10 \b Neurons \b0 at o/p layer :-\par
+
+\pard\sl240\slmult1\highlight1\b\fs24 Number of parameters =  671798\b0\fs21\par
+\b\fs22 Epoch 1/5\b0\par
+150/150 [==============================] - 207s 1s/step - loss: 2.3275 - accuracy: 0.1034 - val_loss: 2.3168 - val_accuracy: 0.1033\par
+\b Epoch 2/5\b0\par
+150/150 [==============================] - 206s 1s/step - loss: 2.3168 - accuracy: 0.1027 - val_loss: 2.3104 - val_accuracy: 0.1022\par
+\b Epoch 3/5\b0\par
+150/150 [==============================] - 206s 1s/step - loss: 2.3134 - accuracy: 0.1053 - val_loss: 2.3341 - val_accuracy: 0.0987\par
+\b Epoch 4/5\b0\par
+150/150 [==============================] - 206s 1s/step - loss: 2.3149 - accuracy: 0.1038 - val_loss: 2.3123 - val_accuracy: 0.1118\par
+\b Epoch 5/5\par
+\b0 150/150 [==============================] - 207s 1s/step - loss: 2.3128 - accuracy: 0.1034 - val_loss: 2.3210 - val_accuracy: 0.0977\par
+938/938 [==============================] - 51s 54ms/step - loss: 2.3210 - accuracy: 0.0977\par
+
+\pard\sl276\slmult1\ul\b\fs24 Accuracy of the first fold=   9.770 %\par
+\ulnone Traning Time= [207+206+206+206+207\b0\fs22  \b\fs24 ]/5= 206.4 Sec\par
+Test Time = 51 Sec\b0\fs22\par
+
+\pard\sl240\slmult1\b Epoch 1/5\b0\par
+150/150 [==============================] - 206s 1s/step - loss: 2.3318 - accuracy: 0.0981 - val_loss: 2.3269 - val_accuracy: 0.1006\par
+\b Epoch 2/5\b0\par
+150/150 [==============================] - 205s 1s/step - loss: 2.3160 - accuracy: 0.1071 - val_loss: 2.3188 - val_accuracy: 0.0979\par
+\b Epoch 3/5\b0\par
+150/150 [==============================] - 206s 1s/step - loss: 2.3183 - accuracy: 0.0998 - val_loss: 2.3055 - val_accuracy: 0.0987\par
+\b Epoch 4/5\b0\par
+150/150 [==============================] - 206s 1s/step - loss: 2.3152 - accuracy: 0.1021 - val_loss: 2.3077 - val_accuracy: 0.1022\par
+\b Epoch 5/5\b0\par
+150/150 [==============================] - 206s 1s/step - loss: 2.3127 - accuracy: 0.1057 - val_loss: 2.3253 - val_accuracy: 0.0990\par
+938/938 [==============================] - 51s 54ms/step - loss: 2.3253 - accuracy: 0.0990\par
+
+\pard\sl276\slmult1\ul\b\fs24 Accuracy of the second fold=   9.903 %\par
+\ulnone Traning Time= [206+205+206+206+206\b0\fs22  \b\fs24 ]/5= 205.8 Sec\par
+Test Time = 51 Sec\highlight2\fs22\par
+\highlight0 ----------------------------------------------------------------------------------------------------------------------\highlight3\ul\par
+\highlight0\ulnone padding\b0 ="same", \b activation function\b0 ="tanh"\b  , activation function at o/p layer\b0 ="softmax\b "  ,kernel_initializer\b0 ='he_uniform\b ', input_shape\b0 =(28, 28, 1), Convolution Conv2D with \b kernel size  (\b0 6*6) and also \b 5 epochs \b0 and \b 2 folds \b0 and  use \b Pooling (Max_Pooling) \b0 = (4*4) and another \b Pooling (Max_Pooling) \b0 = (4*4)  and Adam with \b batch_size\b0 =150,  \b Optimizer\b0 = SGD, \b learning_rate\b0 =0.4 and  \b momentum\b0 =0.6 \b  \b0 and 20 \b Neurons \b0 and 10 \b Neurons \b0 at o/p layer :-\par
+
+\pard\sl240\slmult1\highlight1\b\fs24 Number of parameters =  671798\b0\fs22\par
+\b Epoch 1/5\b0\par
+200/200 [==============================] - 208s 1s/step - loss: 2.3459 - accuracy: 0.1001 - val_loss: 2.3232 - val_accuracy: 0.0993\par
+\b Epoch 2/5\b0\par
+200/200 [==============================] - 208s 1s/step - loss: 2.3247 - accuracy: 0.1016 - val_loss: 2.3175 - val_accuracy: 0.0971\par
+\b Epoch 3/5\b0\par
+200/200 [==============================] - 210s 1s/step - loss: 2.3207 - accuracy: 0.1008 - val_loss: 2.3132 - val_accuracy: 0.1118\par
+\b Epoch 4/5\b0\par
+200/200 [==============================] - 210s 1s/step - loss: 2.3154 - accuracy: 0.1050 - val_loss: 2.3106 - val_accuracy: 0.0996\par
+\b Epoch 5/5\b0\par
+200/200 [==============================] - 212s 1s/step - loss: 2.3119 - accuracy: 0.1024 - val_loss: 2.3114 - val_accuracy: 0.0977\par
+938/938 [==============================] - 52s 56ms/step - loss: 2.3114 - accuracy: 0.0977\par
+
+\pard\sl276\slmult1\ul\b\fs24 Accuracy of the first fold=   9.770 %\par
+\ulnone Traning Time= [208+208+210+210+212\b0\fs22  \b\fs24 ]/5= 209.6 Sec\par
+
+\pard\sl240\slmult1 Test Time = 52 Sec\b0\fs22\par
+\b Epoch 1/5\b0\par
+200/200 [==============================] - 207s 1s/step - loss: 2.3482 - accuracy: 0.1011 - val_loss: 2.3285 - val_accuracy: 0.0979\par
+\b Epoch 2/5\b0\par
+200/200 [==============================] - 206s 1s/step - loss: 2.3295 - accuracy: 0.1017 - val_loss: 2.3134 - val_accuracy: 0.0979\par
+\b Epoch 3/5\b0\par
+200/200 [==============================] - 206s 1s/step - loss: 2.3246 - accuracy: 0.1025 - val_loss: 2.3292 - val_accuracy: 0.1129\par
+\b Epoch 4/5\b0\par
+200/200 [==============================] - 206s 1s/step - loss: 2.3235 - accuracy: 0.1002 - val_loss: 2.3198 - val_accuracy: 0.1129\par
+\b Epoch 5/5\b0\par
+200/200 [==============================] - 206s 1s/step - loss: 2.3191 - accuracy: 0.1029 - val_loss: 2.3179 - val_accuracy: 0.1129\par
+938/938 [==============================] - 52s 55ms/step - loss: 2.3179 - accuracy: 0.1129\par
+
+\pard\sl276\slmult1\ul\b\fs24 Accuracy of the second fold=   11.293 %\par
+\ulnone Traning Time= [207+206+206+206+206\b0\fs22  \b\fs24 ]/5= 206.2 Sec\par
+Test Time = 52 Sec\highlight2\fs22\par
+\highlight0 ----------------------------------------------------------------------------------------------------------------------\highlight3\ul\par
+\highlight0\ulnone padding\b0 ="same", \b activation function\b0 ="tanh"\b  , activation function at o/p layer\b0 ="softmax\b "  ,kernel_initializer\b0 ='he_uniform\b ', input_shape\b0 =(28, 28, 1), Convolution Conv2D with \b kernel size  (\b0 6*6) and also \b 5 epochs \b0 and \b 2 folds \b0 and  use \b Pooling (Max_Pooling) \b0 = (4*4) and another \b Pooling (Max_Pooling) \b0 = (4*4)  and Adam with \b batch_size\b0 =100,  \b Optimizer\b0 = SGD, \b learning_rate\b0 =0.1 and  \b momentum\b0 =0.3 \b  \b0 and 20 \b Neurons \b0 and 10 \b Neurons \b0 at o/p layer :-\par
+\highlight1\b\fs24 Number of parameters =  671798\b0\fs22\par
+\b Epoch 1/5\b0\par
+300/300 [==============================] - 326s 1s/step - loss: 1.0014 - accuracy: 0.6603 - val_loss: 0.2393 - val_accuracy: 0.9325\par
+\b Epoch 2/5\b0\par
+300/300 [==============================] - 321s 1s/step - loss: 0.2210 - accuracy: 0.9344 - val_loss: 0.1916 - val_accuracy: 0.9412\par
+\b Epoch 3/5\b0\par
+300/300 [==============================] - 319s 1s/step - loss: 0.1719 - accuracy: 0.9485 - val_loss: 0.1661 - val_accuracy: 0.9499\par
+\b Epoch 4/5\b0\par
+300/300 [==============================] - 317s 1s/step - loss: 0.1460 - accuracy: 0.9549 - val_loss: 0.1658 - val_accuracy: 0.9489\par
+\b Epoch 5/5\b0\par
+300/300 [==============================] - 317s 1s/step - loss: 0.1243 - accuracy: 0.9626 - val_loss: 0.1241 - val_accuracy: 0.9630\par
+938/938 [==============================] - 69s 74ms/step - loss: 0.1241 - accuracy: 0.9630\par
+\ul\b\fs24 Accuracy of the first fold=   96.303 %\par
+\ulnone Traning Time= [326+321+319+317+317\b0\fs22  \b\fs24 ]/5= 320 Sec\par
+Test Time = 69 Sec\b0\fs22\par
+\b Epoch 1/5\b0\par
+300/300 [==============================] - 320s 1s/step - loss: 0.8347 - accuracy: 0.7342 - val_loss: 0.2412 - val_accuracy: 0.9285\par
+\b Epoch 2/5\b0\par
+300/300 [==============================] - 318s 1s/step - loss: 0.2073 - accuracy: 0.9403 - val_loss: 0.2161 - val_accuracy: 0.9347\par
+\b Epoch 3/5\b0\par
+300/300 [==============================] - 317s 1s/step - loss: 0.1583 - accuracy: 0.9521 - val_loss: 0.1408 - val_accuracy: 0.9582\par
+\b Epoch 4/5\b0\par
+300/300 [==============================] - 316s 1s/step - loss: 0.1335 - accuracy: 0.9600 - val_loss: 0.1756 - val_accuracy: 0.9447\par
+\b Epoch 5/5\b0\par
+300/300 [==============================] - 316s 1s/step - loss: 0.1191 - accuracy: 0.9639 - val_loss: 0.1591 - val_accuracy: 0.9500\par
+938/938 [==============================] - 71s 75ms/step - loss: 0.1591 - accuracy: 0.9500\par
+\ul\b\fs24 Accuracy of the second fold=   95.003 %\par
+\ulnone Traning Time= [320+318+317+316+316\b0\fs22  \b\fs24 ]/5= 317.4 Sec\par
+Test Time = 71 Sec\highlight4\b0\fs22\par
+\highlight0\b ----------------------------------------------------------------------------------------------------------------------\highlight3\ul\par
+\highlight0\ulnone padding\b0 ="same", \b activation function\b0 ="sigmoid"\b  , activation function at o/p layer\b0 ="softmax\b "  ,kernel_initializer\b0 ='he_uniform\b ', input_shape\b0 =(28, 28, 1), Convolution Conv2D with \b kernel size  (\b0 6*6) and also \b 5 epochs \b0 and \b 2 folds \b0 and  use \b Pooling (Max_Pooling) \b0 = (4*4) and another \b Pooling (Max_Pooling) \b0 = (4*4)  and Adam with \b batch_size\b0 =100,  \b Optimizer\b0 = SGD, \b learning_rate\b0 =0.2 and  \b momentum\b0 =0.2 \b  \b0 and 20 \b Neurons \b0 and 10 \b Neurons \b0 at o/p layer :-\par
+
+\pard\sl240\slmult1\highlight1\b Number of parameters =  671798\b0\par
+\b Epoch 1/5\b0\par
+300/300 [==============================] - 316s 1s/step - loss: 2.0269 - accuracy: 0.2980 - val_loss: 1.3212 - val_accuracy: 0.5785\par
+\b Epoch 2/5\b0\par
+300/300 [==============================] - 318s 1s/step - loss: 0.8192 - accuracy: 0.7781 - val_loss: 0.4869 - val_accuracy: 0.8823\par
+\b Epoch 3/5\b0\par
+300/300 [==============================] - 316s 1s/step - loss: 0.3635 - accuracy: 0.9084 - val_loss: 0.3540 - val_accuracy: 0.8900\par
+\b Epoch 4/5\b0\par
+300/300 [==============================] - 320s 1s/step - loss: 0.2440 - accuracy: 0.9350 - val_loss: 0.2067 - val_accuracy: 0.9447\par
+\b Epoch 5/5\b0\par
+300/300 [==============================] - 317s 1s/step - loss: 0.1947 - accuracy: 0.9456 - val_loss: 0.1766 - val_accuracy: 0.9497\par
+938/938 [==============================] - 71s 75ms/step - loss: 0.1766 - accuracy: 0.9497\par
+
+\pard\sl276\slmult1\ul\b\fs24 Accuracy of the first fold=   94.970 %\par
+\ulnone Traning Time= [320+318+317+316+316\b0\fs22  \b\fs24 ]/5= 317.4 Sec\par
+Test Time = 71 Sec\b0\fs22\par
+
+\pard\sl240\slmult1\b Epoch 1/5\b0\par
+300/300 [==============================] - 316s 1s/step - loss: 2.0535 - accuracy: 0.2885 - val_loss: 1.3309 - val_accuracy: 0.5987\par
+\b Epoch 2/5\b0\par
+300/300 [==============================] - 319s 1s/step - loss: 0.8752 - accuracy: 0.7464 - val_loss: 0.5645 - val_accuracy: 0.8689\par
+\b Epoch 3/5\b0\par
+300/300 [==============================] - 315s 1s/step - loss: 0.4318 - accuracy: 0.8865 - val_loss: 0.5170 - val_accuracy: 0.8247\par
+\b Epoch 4/5\b0\par
+300/300 [==============================] - 318s 1s/step - loss: 0.2852 - accuracy: 0.9232 - val_loss: 0.2158 - val_accuracy: 0.9414\par
+\b Epoch 5/5\b0\par
+300/300 [==============================] - 316s 1s/step - loss: 0.2068 - accuracy: 0.9429 - val_loss: 0.2149 - val_accuracy: 0.9377\par
+938/938 [==============================] - 70s 74ms/step - loss: 0.2149 - accuracy: 0.9377\par
+
+\pard\sl276\slmult1\ul\b\fs24 Accuracy of the second fold=   93.770%\par
+\ulnone Traning Time= [316+318+319+315+316\b0\fs22  \b\fs24 ]/5= 316.8 Sec\par
+Test Time = 70 Sec\highlight4\b0\fs22\par
+\highlight0\b ----------------------------------------------------------------------------------------------------------------------\highlight3\ul\par
+\highlight0\ulnone padding\b0 ="same", \b activation function\b0 ="relu"\b  , activation function at o/p layer\b0 ="softmax\b "  ,kernel_initializer\b0 ='he_uniform\b ', input_shape\b0 =(28, 28, 1), Convolution Conv2D with \b kernel size  (\b0 7*7) and also \b 5 epochs \b0 and \b 2 folds \b0 and  use \b Pooling (Max_Pooling) \b0 = (4*4) and another \b Pooling (Max_Pooling) \b0 = (4*4)  and Adam with \b batch_size\b0 =150,  \b Optimizer\b0 = Adam ,and 20 \b Neurons \b0 and 10 \b Neurons \b0 at o/p layer :-\par
+\highlight1\b\fs24 Number of parameters =  671798\b0\fs21\par
+\b Epoch 1/5\b0\par
+200/200 [==============================] - 323s 2s/step - loss: 12.8914 - accuracy: 0.5152 - val_loss: 0.7072 - val_accuracy: 0.7783\par
+\b Epoch 2/5\b0\par
+200/200 [==============================] - 295s 1s/step - loss: 0.4285 - accuracy: 0.8721 - val_loss: 0.2886 - val_accuracy: 0.9187\par
+\b Epoch 3/5\b0\par
+200/200 [==============================] - 294s 1s/step - loss: 0.2385 - accuracy: 0.9316 - val_loss: 0.2461 - val_accuracy: 0.9343\par
+\b Epoch 4/5\b0\par
+200/200 [==============================] - 295s 1s/step - loss: 0.1795 - accuracy: 0.9488 - val_loss: 0.1896 - val_accuracy: 0.9477\par
+\b Epoch 5/5\b0\par
+200/200 [==============================] - 295s 1s/step - loss: 0.1476 - accuracy: 0.9586 - val_loss: 0.2212 - val_accuracy: 0.9372\par
+938/938 [==============================] - 66s 71ms/step - loss: 0.2212 - accuracy: 0.9372\par
+\ul\b\fs24 Accuracy of the second fold=   93.717%\par
+\ulnone Traning Time= [323+295+294+295+295\b0\fs22  \b\fs24 ]/5= 300.4Sec\par
+Test Time = 66 Sec\b0\fs21\par
+\b Epoch 1/5\b0\par
+200/200 [==============================] - 296s 1s/step - loss: 9.6880 - accuracy: 0.1784 - val_loss: 2.0529 - val_accuracy: 0.1941\par
+\b Epoch 2/5\b0\par
+200/200 [==============================] - 296s 1s/step - loss: 1.9640 - accuracy: 0.2013 - val_loss: 1.9609 - val_accuracy: 0.2059\par
+\b Epoch 3/5\b0\par
+200/200 [==============================] - 294s 1s/step - loss: 1.9034 - accuracy: 0.2103 - val_loss: 1.8941 - val_accuracy: 0.2144\par
+\b Epoch 4/5\b0\par
+200/200 [==============================] - 296s 1s/step - loss: 1.8309 - accuracy: 0.2260 - val_loss: 1.8015 - val_accuracy: 0.2275\par
+\b Epoch 5/5\b0\par
+200/200 [==============================] - 296s 1s/step - loss: 1.7802 - accuracy: 0.2436 - val_loss: 1.7761 - val_accuracy: 0.2988\par
+938/938 [==============================] - 67s 71ms/step - loss: 1.7761 - accuracy: 0.2988\par
+\ul\b\fs24 Accuracy of the second fold=   29.883%\par
+\ulnone Traning Time= [296+296+294+296+296\b0\fs22  \b\fs24 ]/5= 295.6 Sec\par
+Test Time = 67 Sec\highlight3\b0\fs21\par
+\highlight0\b\fs22 ----------------------------------------------------------------------------------------------------------------------\highlight3\ul\par
+\highlight0\ulnone padding\b0 ="same", \b activation function\b0 ="relu"\b  , activation function at o/p layer\b0 ="softmax\b "  ,kernel_initializer\b0 ='he_uniform\b ', input_shape\b0 =(28, 28, 1), Convolution Conv2D with \b kernel size  (\b0 5*5) and also \b 5 epochs \b0 and \b 2 folds \b0 and  use \b Pooling (Max_Pooling) \b0 = (3*3) and another \b Pooling (Max_Pooling) \b0 = (3*3)  ,\b batch_size\b0 =160,  \b Optimizer\b0 = Adam ,and 20 \b Neurons \b0 and 10 \b Neurons \b0 at o/p layer :-\highlight5\fs21\par
+\highlight1\b\fs24 Number of parameters =  679478\b0\fs22\par
+\b Epoch 1/5\b0\par
+188/188 [==============================] - 410s 2s/step - loss: 10.9789 - accuracy: 0.1118 - val_loss: 2.3017 - val_accuracy: 0.1118\par
+\b Epoch 2/5\b0\par
+188/188 [==============================] - 412s 2s/step - loss: 2.3012 - accuracy: 0.1129 - val_loss: 2.3015 - val_accuracy: 0.1118\par
+\b Epoch 3/5\par
+\b0 188/188 [==============================] - 413s 2s/step - loss: 2.3009 - accuracy: 0.1129 - val_loss: 2.3016 - val_accuracy: 0.1118\par
+\b Epoch 4/5\par
+\b0 188/188 [==============================] - 412s 2s/step - loss: 2.3009 - accuracy: 0.1129 - val_loss: 2.3016 - val_accuracy: 0.1118\par
+\b Epoch 5/5\par
+\b0 188/188 [==============================] - 413s 2s/step - loss: 2.3009 - accuracy: 0.1129 - val_loss: 2.3016 - val_accuracy: 0.1118\par
+938/938 [==============================] - 89s 94ms/step - loss: 2.3016 - accuracy: 0.1118\par
+\ul\b\fs24 Accuracy of the first fold=   11.180 %\par
+\ulnone Traning Time= [410+412+413+412+413\b0\fs22  \b\fs24 ]/5= 412 Sec\par
+Test Time = 89 Sec\b0\fs22\par
+\b Epoch 1/5\par
+\b0 188/188 [==============================] - 413s 2s/step - loss: 6.6328 - accuracy: 0.1046 - val_loss: 2.3020 - val_accuracy: 0.1129\par
+\b Epoch 2/5\par
+\b0 188/188 [==============================] - 414s 2s/step - loss: 2.3019 - accuracy: 0.1118 - val_loss: 2.3015 - val_accuracy: 0.1129\par
+\b Epoch 3/5\b0\par
+188/188 [==============================] - 415s 2s/step - loss: 2.3017 - accuracy: 0.1118 - val_loss: 2.3012 - val_accuracy: 0.1129\par
+\b Epoch 4/5\b0\par
+188/188 [==============================] - 415s 2s/step - loss: 2.3016 - accuracy: 0.1118 - val_loss: 2.3011 - val_accuracy: 0.1129\par
+\b Epoch 5/5\par
+\b0 188/188 [==============================] - 415s 2s/step - loss: 2.3016 - accuracy: 0.1118 - val_loss: 2.3011 - val_accuracy: 0.1129\par
+938/938 [==============================] - 89s 94ms/step - loss: 2.3011 - accuracy: 0.1129\par
+\ul\b\fs24 Accuracy of the second fold=   11.293 %\par
+\ulnone Traning Time= [413+414+415+415+415\b0\fs22  \b\fs24 ]/5= 414.4 Sec\par
+Test Time = 89 Sec\b0\fs22\par
+\highlight0\b ----------------------------------------------------------------------------------------------------------------------\highlight4\b0\par
+
+\pard\sa200\sl276\slmult1\highlight0\par
+\par
+\b\fs32 Source Code:-\par
+
+\pard\sl276\slmult1 from matplotlib import pyplot as plt\par
+from sklearn.model_selection import KFold\par
+from tensorflow.keras.datasets import mnist\par
+from tensorflow.keras.utils import to_categorical\par
+from tensorflow.keras.models import Sequential\par
+from tensorflow.keras.layers import Conv2D\par
+from tensorflow.keras.layers import MaxPooling2D\par
+from tensorflow.keras.layers import Dense\par
+from tensorflow.keras.layers import Flatten\par
+from tensorflow.keras.optimizers import SGD\par
+from tensorflow.keras.optimizers import RMSprop\par
+from tensorflow.keras.optimizers import Adam\par
+\par
+# load train and test dataset\par
+def load_dataset():\par
+\tab # load dataset\par
+\tab (X_train, Y_train), (X_test, Y_test) = mnist.load_data()\par
+\tab # reshape dataset to have a single channel\par
+\tab X_train = X_train.reshape((X_train.shape[0], 28, 28, 1))\par
+\tab X_test = X_test.reshape((X_test.shape[0], 28, 28, 1))\par
+\tab # one hot encode target values\par
+\tab Y_train = to_categorical(Y_train)\par
+\tab testY = to_categorical(Y_test)\par
+\tab return X_train, Y_train, X_test, Y_test\par
+\par
+\par
+# define cnn model\par
+def define_model():\par
+\tab model = Sequential()\par
+\tab model.add(Conv2D(48,  (12, 12) ,padding="same", activation="tanh", kernel_initializer='he_uniform', input_shape=(28, 28, 1)))        # kernel_initializer---> used to initialize all the values in the Conv2D class before actually training the model.\par
+\tab model.add(MaxPooling2D((4, 4)))\par
+\tab model.add(Conv2D(48,  (12, 12) ,padding="same", activation='tanh', kernel_initializer='he_uniform'))\par
+\tab model.add(Conv2D(48,  (12, 12) ,padding="same", activation='tanh', kernel_initializer='he_uniform'))\par
+\tab model.add(MaxPooling2D((4, 4)))\par
+\tab model.add(Flatten())                                                                    #Flatten--->  returns a copy of the array in one dimensional rather than in 2-D or a multi-dimensional array.\par
+\tab model.add(Dense(20, activation='tanh', kernel_initializer='he_uniform'))\par
+\tab model.add(Dense(10, activation='softmax'))                                              #Dense--->  implements the operation: output = activation(dot(input, kernel) + bias)\par
+\tab # compile model\par
+\tab opt = SGD(learning_rate=0.3, momentum=0.5)\par
+\tab model.compile(optimizer=opt, loss='categorical_crossentropy',  metrics=['accuracy'])\par
+\tab return model\par
+\par
+# evaluate a model using k-fold cross-validation\par
+def evaluate_model(dataX, dataY, n_folds=2):\par
+\tab scores, histories = list(), list()\par
+\tab # prepare cross validation\par
+\tab kfold = KFold(n_folds, shuffle=True, random_state=1)\par
+\tab # enumerate splits\par
+\tab for train_ix, test_ix in kfold.split(dataX):\par
+\tab\tab # define model\par
+\tab\tab model = define_model()\par
+\tab\tab # select rows for train and test\par
+\tab\tab X_train, Y_train, X_test, Y_test = dataX[train_ix], dataY[train_ix], dataX[test_ix], dataY[test_ix]\par
+\tab\tab # fit model\par
+\tab\tab history = model.fit(X_train, Y_train, epochs=5, batch_size=200, validation_data=(X_test, Y_test))\par
+\tab\tab # evaluate model\par
+\tab\tab _, acc = model.evaluate(X_test, Y_test)\par
+\tab\tab print('> %.3f' % (acc * 100.0))\par
+\tab   \par
+\tab\tab # stores scores\par
+\tab\tab scores.append(acc)\par
+\tab\tab histories.append(history)\par
+\tab return scores, histories\par
+model = define_model()\par
+\par
+print("Number of parameters = ",model.count_params())\par
+\par
+def getAccuracy(scores):\par
+\par
+\tab print('Accuracy:  n=%d' % (len(scores)))\par
+\par
+\par
+def test():\par
+\tab # load dataset\par
+\tab X_train, Y_train, X_test, Y_test = load_dataset()\par
+\tab # evaluate model\par
+\tab scores, histories = evaluate_model(X_train, Y_train)\par
+\par
+\par
+# entry point, run the test harness\par
+test()\par
+}
+ 
